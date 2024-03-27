@@ -1,0 +1,15 @@
+header {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.input-theme {
+	display: flex;
+    align-items: center;
+	gap: 1ch;
+}
+.input-theme > input {
+	aspect-ratio: 1;
+	width: 1.5rem;
+}

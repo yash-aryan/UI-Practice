@@ -1,0 +1,31 @@
+:root {
+	--background: white;
+	--text-primary: black;
+	--text-secondary: grey;
+	--accent: purple;
+}
+
+[data-theme='dark'] {
+	color-scheme: dark;
+	--background: black;
+	--text-primary: white;
+	--text-secondary: grey;
+	--accent: darkred;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.app {
+	height: 100vh;
+	padding-inline: 1rem;
+	color: var(--text-primary);
+	background-color: var(--background);
+}

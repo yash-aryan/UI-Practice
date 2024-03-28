@@ -6,7 +6,7 @@ export function Header({ switchTheme }) {
 			<h1 className="top-header">Project by Yash Aryan</h1>
 			<label className={'input-theme'}>
 				<input type="checkbox" name="theme" onChange={switchTheme} />
-				Flashlight Mode
+				Dark Mode
 			</label>
 		</header>
 	);

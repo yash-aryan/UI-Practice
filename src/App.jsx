@@ -1,19 +1,20 @@
 import './styles/App.css';
 import { useState } from 'react';
 import { Header } from './components/Header';
-import { Main } from './components/Main';
+import { MainContent } from './components/MainContent';
 
 function App() {
 	const [isDark, setIsDark] = useState(true);
 
 	return (
-		<div className="app" data-theme={isDark ? 'dark' : ''}>
+		<div className="app">
 			<Header switchTheme={switchTheme} />
-			<Main />
+			<MainContent />
 		</div>
 	);
 
 	function switchTheme() {
+		document.documentElement.classList.toggle('dark');
 		setIsDark(!isDark);
 	}
 }

@@ -5,6 +5,10 @@ header {
 	gap: 2rem;
 }
 
+.top-header {
+	font-size: 1.25rem;
+}
+
 .input-theme {
 	display: flex;
     align-items: center;

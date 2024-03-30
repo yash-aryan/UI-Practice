@@ -1,6 +1,8 @@
 main {
     display: flex;
     flex-direction: column;
+    gap: 4rem;
+    padding-inline: 8%;
 }
 
 .title-text {
